@@ -61,7 +61,7 @@ Optional properties:
 	* DIO3
 	* DIO4
 	Each DIOx pin supports only one function at a time (data ready line
-	selection or external clock input). When a single pin has two
+	selection or external clock input). When a single pin has
 	two assignments, the enable bit for the lower priority function
 	automatically resets to zero (disabling the lower priority function).
 	Data ready has highest priority.

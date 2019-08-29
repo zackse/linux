@@ -2672,7 +2672,7 @@ RCU needs it to be:
 	about this sort of thing.
 <li>	If a CPU is in a portion of the kernel that is absolutely
 	positively no-joking guaranteed to never execute any RCU read-side
-	critical sections, and RCU believes this CPU to to be idle,
+	critical sections, and RCU believes this CPU to be idle,
 	no problem.  This sort of thing is used by some architectures
 	for light-weight exception handlers, which can then avoid the
 	overhead of <tt>rcu_irq_enter()</tt> and <tt>rcu_irq_exit()</tt>
@@ -3015,7 +3015,7 @@ However, there are legitimate preemptible-RCU implementations that
 do not have this property, given that any point in the code outside
 of an RCU read-side critical section can be a quiescent state.
 Therefore, <i>RCU-sched</i> was created, which follows &ldquo;classic&rdquo;
-RCU in that an RCU-sched grace period waits for for pre-existing
+RCU in that an RCU-sched grace period waits for pre-existing
 interrupt and NMI handlers.
 In kernels built with <tt>CONFIG_PREEMPT=n</tt>, the RCU and RCU-sched
 APIs have identical implementations, while kernels built with

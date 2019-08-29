@@ -105,7 +105,7 @@ property, describing physical location of the children nodes:
   where 0 means motherboard, 1 or 2 are daugtherboard sites,
   0xf means "master" site (site containing main CPU tile)
 - when daughterboards are stacked on one site, their position
-  in the stack be be described with:
+  in the stack be described with:
 	arm,vexpress,position = <number>;
 - when describing tiles consisting more than one DCC, its number
   can be described with:

@@ -10,7 +10,7 @@ Required properties:
 - compatible : shall be "ti,keystone,psc-clock".
 - #clock-cells : from common clock binding; shall be set to 0.
 - clocks : parent clock phandle
-- reg :	psc control and domain address address space
+- reg :	psc control and domain address space
 - reg-names : psc control and domain registers
 - domain-id : psc domain id needed to check the transition state register
 

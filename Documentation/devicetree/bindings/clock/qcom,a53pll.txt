@@ -1,6 +1,6 @@
 Qualcomm MSM8916 A53 PLL Binding
 --------------------------------
-The A53 PLL on MSM8916 platforms is the main CPU PLL used used for frequencies
+The A53 PLL on MSM8916 platforms is the main CPU PLL used for frequencies
 above 1GHz.
 
 Required properties :

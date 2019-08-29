@@ -20,7 +20,7 @@ Required properties:
                    MAX98927 slot range : 0 ~ 15,  Default : 0
 
   - interleave-mode : When using two MAX9892X in a system it is
-                   possible to create ADC data that that will
+                   possible to create ADC data that will
                    overflow the frame size. Digital Audio Interleave
                    mode provides a means to output VMON and IMON data
                    from two devices on a single DOUT line when running

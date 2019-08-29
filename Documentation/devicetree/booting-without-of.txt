@@ -1292,7 +1292,7 @@ should use the conventional OF representation described in the
 OF interrupt mapping documentation.
 
 Each device which generates interrupts must have an 'interrupt'
-property.  The interrupt property value is an arbitrary number of
+property.  The interrupt property value is an arbitrary number
 of 'interrupt specifier' values which describe the interrupt or
 interrupts for the device.
 

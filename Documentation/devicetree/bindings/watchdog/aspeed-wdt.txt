@@ -42,7 +42,7 @@ Optional properties:
 Optional properties for AST2500-compatible watchdogs:
  - aspeed,ext-push-pull: If aspeed,external-signal is present, set the pin's
 			 drive type to push-pull. The default is open-drain.
- - aspeed,ext-active-high: If aspeed,external-signal is present and and the pin
+ - aspeed,ext-active-high: If aspeed,external-signal is present and the pin
 			   is configured as push-pull, then set the pulse
 			   polarity to active-high. The default is active-low.
 

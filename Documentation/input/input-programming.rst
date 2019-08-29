@@ -119,8 +119,8 @@ Then there is the::
 	input_sync()
 
 call to tell those who receive the events that we've sent a complete report.
-This doesn't seem important in the one button case, but is quite important
-for for example mouse movement, where you don't want the X and Y values
+This doesn't seem important in the one button case, but is quite important,
+for example, for mouse movement, where you don't want the X and Y values
 to be interpreted separately, because that'd result in a different movement.
 
 dev->open() and dev->close()

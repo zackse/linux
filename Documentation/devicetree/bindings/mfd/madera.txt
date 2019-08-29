@@ -75,7 +75,7 @@ Optional properties:
     One for each output pin (MICBIAS1A, MIBCIAS1B, MICBIAS2A, ...)
     (all except CS47L85, WM1840)
 
-    The following following additional property is supported for the generator
+    The following additional property is supported for the generator
     nodes:
       - cirrus,ext-cap : Set to 1 if the MICBIAS has external decoupling
         capacitors attached.

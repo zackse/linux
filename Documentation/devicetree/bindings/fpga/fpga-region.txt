@@ -50,7 +50,7 @@ Partial Reconfiguration Region (PRR)
 Persona
  * Also called a "partial bit stream"
  * An FPGA image that is designed to be loaded into a PRR.  There may be
-   any number of personas designed to fit into a PRR, but only one at at time
+   any number of personas designed to fit into a PRR, but only one at a time
    may be loaded.
  * A persona may create more regions.
 
@@ -127,7 +127,7 @@ add the child devices:
 
  * FPGA Manager
  * FPGA Bridges
- * image-specific information needed to to the programming.
+ * image-specific information needed to the programming.
  * child nodes
 
 The intended use is that a Device Tree overlay (DTO) can be used to reprogram an
@@ -335,7 +335,7 @@ succeeded.
 
 The Device Tree Overlay will contain:
  * "target-path" or "target"
-   The insertion point where the the contents of the overlay will go into the
+   The insertion point where the contents of the overlay will go into the
    live tree.  target-path is a full path, while target is a phandle.
  * "ranges"
     The address space mapping from processor to FPGA bus(ses).

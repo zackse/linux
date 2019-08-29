@@ -12,7 +12,7 @@ Copyright (C) 2008-2011 Freescale Semiconductor Inc.
    -Secure Non-Volatile Storage (SNVS) Low Power (LP) RTC Node
    -Full Example
 
-NOTE: the SEC 4 is also known as Freescale's Cryptographic Accelerator
+NOTE: the SEC 4 is also known as Freescale's Cryptographic
 Accelerator and Assurance Module (CAAM).
 
 =====================================================================

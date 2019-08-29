@@ -17,7 +17,7 @@ Required properties on all platforms:
 		should be used.
 
 - reg:	The first register range should be the one of the DWMAC
-	controller. The second range is is for the Amlogic specific
+	controller. The second range is for the Amlogic specific
 	configuration (for example the PRG_ETHERNET register range
 	on Meson8b and newer)
 

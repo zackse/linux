@@ -48,7 +48,7 @@ Notes and limitations.
   available, the bulk read will return an error and the hardware will
   clear the entire bulk in buffer.  It would be possible to read the
   maximum buffer size to not run into this error condition, only extra
-  bytes in the buffer is a logic error in the driver.  The code should
+  bytes in the buffer is a logic error in the driver.  The code
   should match reads and writes as well as data sizes.  Reads and
   writes are serialized and the status verifies that the chip is idle
   (and data is available) before the read is executed, so it should

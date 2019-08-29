@@ -1163,7 +1163,7 @@ Therefore, whenever the <tt>-&gt;dynticks_nesting</tt> field is
 incremented up from zero, the <tt>-&gt;dynticks_nmi_nesting</tt> field
 is set to a large positive number, and whenever the
 <tt>-&gt;dynticks_nesting</tt> field is decremented down to zero,
-the the <tt>-&gt;dynticks_nmi_nesting</tt> field is set to zero.
+the <tt>-&gt;dynticks_nmi_nesting</tt> field is set to zero.
 Assuming that the number of misnested interrupts is not sufficient
 to overflow the counter, this approach corrects the
 <tt>-&gt;dynticks_nmi_nesting</tt> field every time the corresponding

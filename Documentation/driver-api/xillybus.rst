@@ -272,7 +272,7 @@ FPGA, the Xillybus IP core writes it to one of the DMA buffers. When the
 buffer is full, the FPGA informs the host about that (appending a
 XILLYMSG_OPCODE_RELEASEBUF message channel 0 and sending an interrupt if
 necessary). The host responds by making the data available for reading through
-the character device. When all data has been read, the host writes on the
+the character device. When all data has been read, the host writes on
 the FPGA's buffer control register, allowing the buffer's overwriting. Flow
 control mechanisms exist on both sides to prevent underflows and overflows.
 

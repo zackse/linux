@@ -28,7 +28,7 @@ Required SoC Specific Properties:
   required for interacting with the controller itself, for synchronizing the bus
   and as I/O clock (the latter is required by exynos5433 and exynos7).
 
-- clock-names: string names of the clocks in the 'clocks' property; for all the
+- clock-names: string names of the clocks in the 'clocks' property; for all
   the devices the names must be "spi", "spi_busclkN" (where N is determined by
   "samsung,spi-src-clk"), while Exynos5433 should specify a third clock
   "spi_ioclk" for the I/O clock.

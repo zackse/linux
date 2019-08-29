@@ -88,7 +88,7 @@ bindings as child nodes of the RSC controllers they wish to communicate with.
 
 Example 1:
 
-For a TCS whose RSC base address is is 0x179C0000 and is at a DRV id of 2, the
+For a TCS whose RSC base address is 0x179C0000 and is at a DRV id of 2, the
 register offsets for DRV2 start at 0D00, the register calculations are like
 this -
 DRV0: 0x179C0000

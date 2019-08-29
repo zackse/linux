@@ -27,7 +27,7 @@ Required properties:
 
 Optional properties:
   - clock-frequency: Desired operating frequency in Hz of the bus.
-    -> If not specified, the bus operates in fast-speed mode at
+    -> If not specified, the bus operates in fast-speed mode
        at 100khz.
     -> If specified, the bus operates in high-speed mode only if the
        clock-frequency is >= 1Mhz.

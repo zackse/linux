@@ -5,7 +5,7 @@ Required properties:
  - active-semi,chglev-gpios: charge current level phandle with args
    as described in ../gpio/gpio.txt.
  - active-semi,lbo-gpios: specify the low battery voltage detect phandle
-   with args as as described in ../gpio/gpio.txt.
+   with args as described in ../gpio/gpio.txt.
  - interrupts: <a b> where a is the interrupt number and b is a
    field that represents an encoding of the sense and level
    information for the interrupt.

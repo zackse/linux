@@ -239,7 +239,7 @@ local IRQs are always disabled inside completion handlers.
 How to do isochronous (ISO) transfers?
 ======================================
 
-Besides the fields present on a bulk transfer, for ISO, you also
+Besides the fields present on a bulk transfer, for ISO, you
 also have to set ``urb->interval`` to say how often to make transfers; it's
 often one per frame (which is once every microframe for highspeed devices).
 The actual interval used will be a power of two that's no bigger than what

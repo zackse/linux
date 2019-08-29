@@ -205,7 +205,7 @@ over a rather long period of time, but improvements are always welcome!
 	Restructure your code so that it batches the updates, allowing
 	a single non-expedited primitive to cover the entire batch.
 	This will very likely be faster than the loop containing the
-	expedited primitive, and will be much much easier on the rest
+	expedited primitive, and will be much, much easier on the rest
 	of the system, especially to real-time workloads running on
 	the rest of the system.
 
@@ -453,6 +453,6 @@ over a rather long period of time, but improvements are always welcome!
 	So if you need to wait for both an RCU grace period and for
 	all pre-existing call_rcu() callbacks, you will need to execute
 	both rcu_barrier() and synchronize_rcu(), if necessary, using
-	something like workqueues to to execute them concurrently.
+	something like workqueues to execute them concurrently.
 
 	See rcubarrier.txt for more information.
