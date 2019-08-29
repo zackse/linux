@@ -340,7 +340,7 @@ So this must work:
 	$ cat error-inj >einj.txt
 	$ cat einj.txt >error-inj
 
-The first callback is called when this file is read and it should show the
+The first callback is called when this file is read and it should show
 the current error injection state:
 
 .. c:function::

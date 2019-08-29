@@ -488,7 +488,7 @@ X86:
 
 Returns: 0 on success,
 	 -EEXIST if an interrupt is already enqueued
-	 -EINVAL the the irq number is invalid
+	 -EINVAL the irq number is invalid
 	 -ENXIO if the PIC is in the kernel
 	 -EFAULT if the pointer is invalid
 

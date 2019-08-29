@@ -94,7 +94,7 @@ The prototype of the callback function is as follows (as of v4.14):
       	 (where the fentry or mcount is within the function)
 
 @parent_ip
-	This is the instruction pointer of the function that called the
+	This is the instruction pointer of the function that called
 	the function being traced (where the call of the function occurred).
 
 @op

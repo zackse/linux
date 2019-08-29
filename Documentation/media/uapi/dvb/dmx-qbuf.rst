@@ -56,7 +56,7 @@ by a :ref:`DMX_QUERYBUF` ioctl will do as well.
 
 When ``DMX_QBUF`` is called with a pointer to this structure, it locks the
 memory pages of the buffer in physical memory, so they cannot be swapped
-out to disk. Buffers remain locked until dequeued, until the
+out to disk. Buffers remain locked until dequeued, until
 the device is closed.
 
 Applications call the ``DMX_DQBUF`` ioctl to dequeue a filled

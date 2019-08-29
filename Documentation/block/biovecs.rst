@@ -51,7 +51,7 @@ advantages:
    which copies the contents of one bio into another. Because the biovecs
    wouldn't necessarily be the same size, the old code was tricky convoluted -
    it had to walk two different bios at the same time, keeping both bi_idx and
-   and offset into the current biovec for each.
+   an offset into the current biovec for each.
 
    The new code is much more straightforward - have a look. This sort of
    pattern comes up in a lot of places; a lot of drivers were essentially open

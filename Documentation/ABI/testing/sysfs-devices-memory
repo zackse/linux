@@ -45,7 +45,7 @@ Description:
 		The file /sys/devices/system/memory/memoryX/state
 		is read-write.  When read, its contents show the
 		online/offline state of the memory section.  When written,
-		root can toggle the the online/offline state of a removable
+		root can toggle the online/offline state of a removable
 		memory section (see removable file description above)
 		using the following commands.
 		# echo online > /sys/devices/system/memory/memoryX/state

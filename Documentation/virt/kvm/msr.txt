@@ -238,7 +238,7 @@ MSR_KVM_STEAL_TIME: 0x4b564d03
 
 		preempted: indicate the vCPU who owns this struct is running or
 		not. Non-zero values mean the vCPU has been preempted. Zero
-		means the vCPU is not preempted. NOTE, it is always zero if the
+		means the vCPU is not preempted. NOTE, it is always zero if
 		the hypervisor doesn't support this field.
 
 MSR_KVM_EOI_EN: 0x4b564d04

@@ -184,7 +184,7 @@ versions of the sysfs interface.
 	``-ENXIO``: The read or store operation failed
 
     Error codes will not be changed without good reason, and should a change
-    to error codes result in user-space breakage, it will be fixed, or the
+    to error codes result in user-space breakage, it will be fixed, or
     the offending change will be reverted.
 
     Userspace applications can, however, expect the format and contents of

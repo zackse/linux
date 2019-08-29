@@ -232,7 +232,7 @@ Interaction with the user of the RxRPC socket:
      client resources.  A new call can then be initiated with the same tag
      without fear of interference.
 
- (*) In the server, a request is received with one or more recvmsgs, then the
+ (*) In the server, a request is received with one or more recvmsgs, then
      the reply is transmitted with one or more sendmsgs, and then the final ACK
      is received with a last recvmsg.
 

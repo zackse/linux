@@ -148,7 +148,7 @@ void (*rcv_msg)(struct strparser *strp, struct sk_buff *skb);
 
     The skb->cb in the input skb is a struct strp_msg. This
     struct contains two fields: offset and full_len. Offset is
-    where the message starts in the skb, and full_len is the
+    where the message starts in the skb, and full_len is
     the length of the message. skb->len - offset may be greater
     then full_len since strparser does not trim the skb.
 

@@ -144,7 +144,7 @@ UCAN_COMMAND_SET_BITTIMING
 
 *Host2Dev; mandatory*
 
-Setup bittiming by sending the the structure
+Setup bittiming by sending the structure
 ``ucan_ctl_payload_t.cmd_set_bittiming`` (see ``struct bittiming`` for
 details)
 

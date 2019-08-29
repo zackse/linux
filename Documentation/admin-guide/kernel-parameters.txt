@@ -3460,7 +3460,7 @@
 				specified, e.g., 4096@pci:8086:9c22:103c:198f
 		ecrc=		Enable/disable PCIe ECRC (transaction layer
 				end-to-end CRC checking).
-				bios: Use BIOS/firmware settings. This is the
+				bios: Use BIOS/firmware settings. This is
 				the default.
 				off: Turn ECRC off
 				on: Turn ECRC on.
