@@ -179,7 +179,7 @@ Writing an unsupported mode will result in an invalid parameter error.
 
 * 2: Normal auto mode
   You can define a number of temperature/fan speed trip points, which % the
-  fan should run at at this temp and which temp a fan should follow using the
+  fan should run at this temp and which temp a fan should follow using the
   standard sysfs interface. The number and type of trip points is chip
   depended, see which files are available in sysfs.
   Fan/PWM channel 3 of the F8000 is always in this mode!

@@ -102,7 +102,7 @@ problem before the real initialization of the object happens. E.g. it
 can deactivate an active object in order to prevent damage to the
 subsystem.
 
-When the real object is not yet tracked by debugobjects debugobjects
+When the real object is not yet tracked by debugobjects, debugobjects
 allocates a tracker object for the real object and sets the tracker
 object state to ODEBUG_STATE_INIT. It verifies that the object is on
 the callers stack.

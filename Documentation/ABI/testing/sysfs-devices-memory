@@ -54,7 +54,7 @@ Description:
 		For example, if /sys/devices/system/memory/memory22/removable
 		contains a value of 1 and
 		/sys/devices/system/memory/memory22/state contains the
-		string "online" the following command can be executed by
+		string "online" the following command can be executed
 		by root to offline that section.
 		# echo offline > /sys/devices/system/memory/memory22/state
 Users:		hotplug memory remove tools

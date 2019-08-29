@@ -74,7 +74,7 @@ Date:		March 2016
 KernelVersion:	4.7
 Contact:	Mathieu Poirier <mathieu.poirier@linaro.org>
 Description:	(R) Shows the value held by the TMC Mode register, which
-		indicate the mode the device has been configured to enact.  The
+		indicate the mode the device has been configured to enact.
 		The value is read directly from the MODE register, 0x028.
 
 What:		/sys/bus/coresight/devices/<memory_map>.tmc/mgmt/devid

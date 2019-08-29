@@ -66,7 +66,7 @@ KernelVersion:	2.6.12
 Contact:	netdev@vger.kernel.org
 Description:
 		Indicates the number of received frames with error, such as
-		alignment errors. Note that the specific meaning depends on
+		alignment errors. Note that the specific meaning depends
 		on the MAC layer protocol used. See the network driver for
 		the exact meaning of this value.
 

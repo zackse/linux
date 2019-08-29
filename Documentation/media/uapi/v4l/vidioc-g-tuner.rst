@@ -170,7 +170,7 @@ To change the radio frequency the
 	:ref:`tuner-matrix` for possible results when the selected and
 	received audio programs do not match.
 
-	Currently this is the only field of struct
+	Currently this is the only field of
 	struct :c:type:`v4l2_tuner` applications can change.
     * - __u32
       - ``signal``

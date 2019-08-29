@@ -428,7 +428,7 @@ A partial list of the supported mount options follows:
 		the mount, cache the new file's uid and gid locally which means
 		that the uid for the file can change when the inode is
 	        reloaded (or the user remounts the share).
-  nosetuids     The client will not attempt to set the uid and gid on
+  nosetuids     The client will not attempt to set the uid and gid
 		on newly created files, directories, and devices (create, 
 		mkdir, mknod) which will result in the server setting the
 		uid and gid to the default (usually the server uid of the
